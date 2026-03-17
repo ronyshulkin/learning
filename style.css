@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("Gemini_Generated_Image_eipzj1eipzj1eipz.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1;
+  font-weight: 500;
+  user-select: none;
+}
+
+input {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  text-align: center;
+}
+
+.input-field {
+  height: 2.25rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  border: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.input-field::placeholder {
+  color: #6b7280;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #171717;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 24rem;
+}
