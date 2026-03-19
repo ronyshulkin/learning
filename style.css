@@ -2,6 +2,13 @@
 
 /* Figma variables: slate-300 #D5E1EF, slate-900 #1F314F, slate-500 #68778D, white #FFFFFF */
 /* Spacing: 200=16px, 300=24px, 500=40px. Font: preset-1=22px, preset-2=15px */
+/* Card in Figma is 320px total width (including padding) = border-box */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #d5e1ef;
@@ -21,6 +28,7 @@ body {
   border-radius: 20px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
   padding: 16px 16px 40px 16px;
+  box-sizing: border-box;
 }
 
 .qr-code img {
