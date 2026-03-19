@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Figma variables: slate-300 #D5E1EF, slate-900 #1F314F, slate-500 #68778D, white #FFFFFF */
+/* Spacing: 200=16px, 300=24px, 500=40px. Font: preset-1=22px, preset-2=15px */
+
 body {
-  background-color: hsl(212, 45%, 89%);
+  background-color: #d5e1ef;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,12 +15,12 @@ body {
 }
 
 .card {
-  background-color: white;
+  background-color: #ffffff;
   width: min(320px, 90%);
-  border-radius: 15px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  padding: 15px;
   max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+  padding: 16px 16px 40px 16px;
 }
 
 .qr-code img {
@@ -26,26 +30,26 @@ body {
   display: block;
 }
 
+/* 24px gap from Figma between card sections */
 .title h1 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
-  padding-top: 20px;
-  padding-bottom: 7px;
+  padding-top: 24px;
+  padding-bottom: 16px;
   text-align: center;
-  color: hsl(218, 44%, 22%);
-  width: 80%;
-  margin: 0 auto;
+  color: #1f314f;
+  width: 100%;
+  margin: 0;
 }
 
 .description p {
   font-size: 15px;
   font-weight: 400;
-  padding-top: 10px;
-  padding-bottom: 20px;
+
   text-align: center;
-  color: hsl(216, 15%, 48%);
-  width: 80%;
-  margin: 0 auto;
+  color: #68778d;
+  width: 100%;
+  margin: 0;
 }
 
 .attribution {
