@@ -1,42 +1,41 @@
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Login Page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
     <div class="card">
-      <h1>Login</h1>
-      <form>
-        <div>
-          <label class="form-label" for="email">Email</label>
-          <input
-            class="input-field"
-            type="email"
-            id="email"
-            name="email"
-            placeholder="example@gmail.com"
-            required
-          />
-        </div>
-        <div>
-          <label class="form-label" for="password">Password</label>
-          <input
-            class="input-field"
-            type="password"
-            id="password"
-            name="password"
-            placeholder="password"
-            required
-          />
-        </div>
-        <button type="submit">Login</button>
-        <button type="Sign up" onclick="window.location.href = 'register.html'">
-          Sign up
-        </button>
-      </form>
+      <div class="qr-code">
+        <img src="./images/image-qr-code.png" alt="QR Code" />
+      </div>
+      <div class="title">
+        <h1>Improve your front-end skills by building projects</h1>
+      </div>
+
+      <div class="description">
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/ronyshulkin">Rony</a>.
     </div>
   </body>
 </html>
