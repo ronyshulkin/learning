@@ -1,26 +1,17 @@
-# QR Code Component
+# Learning
 
-A responsive QR code card built for the [Frontend Mentor QR code component challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+This repository is my central place for Frontend Mentor practice projects.
 
-## What’s in this project
+## Projects in this repository
 
-- **index.html** – Page structure: card with QR image, heading, description, and attribution links.
-- **style.css** – Layout, colors, typography (Outfit from Google Fonts), and responsive behavior.
-- **images/** – QR code image and favicon used by the page.
+- `blog-preview-card-main/` - Frontend Mentor blog preview card challenge.
+- `social-links-profile-main/` - Frontend Mentor social links profile challenge.
+- Root project files (`index.html`, `style.css`, `images/`) - earlier Frontend Mentor QR code component work.
 
-## What was done
+## How to run a project
 
-- Centered card on the page using Flexbox on the body.
-- Styled the card: white background, rounded corners, shadow, and padding.
-- Used the challenge style guide: Slate 300 background, Slate 900 for the heading, Slate 500 for the paragraph.
-- Made the layout responsive: card width uses `min(320px, 90%)` and `max-width: 320px` so it works on small and large screens; QR image scales with `width: 100%` and `height: auto`.
-- Semantic HTML: `<h1>` for the main heading and `<p>` for the description.
-- Attribution section at the bottom with links to Frontend Mentor and my GitHub.
-
-## How to run it
-
-1. Clone the repo (or download the files).
-2. Open `index.html` in a browser, or use a local server (e.g. Live Server in VS Code).
+1. Open the project folder you want to view.
+2. Open its `index.html` file in a browser, or run it with Live Server.
 
 ## Author
 
