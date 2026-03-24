@@ -61,3 +61,6 @@ body {
   background-color: hsl(0, 0%, 20%);
   text-decoration: none;
 }
+.profile-card-links a:hover {
+  background-color: hsl(75, 94%, 57%);
+}
